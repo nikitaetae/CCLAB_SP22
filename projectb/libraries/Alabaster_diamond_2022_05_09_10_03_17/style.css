@@ -3,6 +3,8 @@ html, body {
   padding: 0;
 }
 canvas {
-  display: inline-block;
+  display: block;
+  position:absolute; 
+  z-index:-1;
 
 }
