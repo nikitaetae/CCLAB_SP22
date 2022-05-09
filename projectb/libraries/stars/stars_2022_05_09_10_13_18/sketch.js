@@ -21,6 +21,7 @@ function draw() {
     light[i].update();
     light[i].show();
   }
+  
   fill(255,255,190,0.7);
   for(i = 0; i < 150; i++){
     ellipse(400,250, i*7);
